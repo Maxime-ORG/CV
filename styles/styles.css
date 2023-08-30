@@ -1,0 +1,174 @@
+
+.image1 {
+    max-width: 15rem;
+    max-height :15rem;
+    border-radius: 100% 100% 100% 100%;
+    /* display: flex;
+    justify-content: center; */
+    overflow: hidden;
+    overflow-clip-margin: 0rem;
+
+}
+
+.image_de_profil{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top :6rem;
+    position: static;
+    left: 10rem;
+}
+
+.position_absolute{
+    position: absolute;
+    background-color: #C17136;
+    border-radius: 100%;
+    
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #575757;
+
+}
+h1 { 
+    position: static;
+    margin: 5rem 0rem 5rem 0rem ;
+    /* font-family: 'Victor Mono', monospace; */
+    color: white;
+    text-align: center;
+
+    font-size: 5vw;
+    
+
+}
+h2 { 
+    font-family: 'Victor Mono', monospace;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+h3 {
+    background-color: #C17136;
+    border-radius: 1% / 50%;
+}
+
+.titre_status{
+    border-radius: 3% / 50%
+}
+
+.Bold  {
+    font-weight : bold;
+}
+
+
+td, th {
+    border: solid 1px #C17136 ;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+}
+
+.box_centre{
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    justify-content: center
+}
+
+.box_generale {
+    display: grid;
+    grid-template-columns: 1Fr 3fr;
+    column-gap: 1vw;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .box_generale {grid-template-columns: 1Fr}
+    .box{margin: 0}
+}
+
+@media (max-width: 400px) {
+    table {display : none;}
+}
+
+
+.centreur{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header{
+    
+    
+
+    margin: 0rem;
+    padding: 0rem;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #C17136;
+    position: sticky;
+    bottom : 0px ;
+    max-height: 4rem;
+    top: 0px;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+}
+
+
+.box_bouton{
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 0.3em;
+    margin : 1em;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lien{
+    color: blue;
+}
+
+
+.form_label
+{
+    display: grid;
+    justify-content: left;
+    width:10em; 
+    
+}
+
+form{
+    padding: 2%;
+}
+
+.infoPerso_text{
+    margin: auto;
+}
+/*
+    color: #575757;
+    color: #C17136;
+    color: #3C3C3C
+*/
+
+section{
+    margin: 5rem;
+}
+

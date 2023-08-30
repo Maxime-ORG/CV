@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<form action="/my-handling-form-page" method="post">
+    <section>
+        <h2>Informations de contact</h2>
+        <fieldset>
+          <legend>Qualité</legend>
+          <ul>
+              <li>
+                <label for="title_1">
+                  <input type="radio" id="title_1" name="title" value="M." >
+                  Monsieur
+                </label>
+              </li>
+              <li>
+                <label for="title_2">
+                  <input type="radio" id="title_2" name="title" value="Mme.">
+                  Madame
+                </label>
+              </li>
+          </ul>
+        </fieldset>
+        <p>
+          <label for="name">
+            <span>Nom&nbsp;: </span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="text" id="name" name="username">
+        </p>
+        <p>
+          <label for="mail">
+            <span>e-mail&nbsp;:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="email" id="mail" name="usermail">
+        </p>
+        <p>
+          <label for="pwd">
+            <span>Mot de passe&nbsp;:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="password" id="pwd" name="password">
+        </p>
+    </section>
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Send your message</button>
+        </li>
+    </ul>
+</form>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' href='styles/styles.css'>
+
+    <link type='text/css' rel="preconnect" href="https://fonts.googleapis.com">
+    <link type='text/css' rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link type='text/css'
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Victor+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body class="body_contact">
+    <div class="box_marge">
+        <h1>
+            Contact
+        </h1>
+        <h3>
+            Informations personnelles
+        </h3>
+
+        <div class="centreur">
+            <p class="infoPerso_text">
+
+                <br> 1121 Route de Meylan
+                <br> 38330 Biviers
+                <br> Email : maxime.orgnon@gmail.com
+                <br> Telephone : 0782903587
+                <br> LinkedIn : <a href="https://www.linkedin.com/in/maxime-orgnon-0049201b6" class="lien">
+                    https://fr.linkedin.com </a>
+
+            </p>
+        </div>
+
+        <h3>
+            Formulaire de Contact
+        </h3>
+
+        <div class="centreur">
+            <form action="https://httpbin.org/post" method="POST">
+                <div class="box_centre">
+                    <label class="form_label" for="form_label_nom">
+                        Nom
+                        <input id="form_label_nom" name="form_name_nom" type="text">
+                    </label>
+
+                    <label class="form_label" for="form_label_prenom">
+                        Prenom
+                        <input id="form_label_prenom" name="form_name_prenom" type="text">
+                    </label>
+
+                    <label class="form_label" for="form_label_mail">
+                        E-mail
+                        <input id="form_label_mail" name="form_name_mail" type="text">
+                    </label>
+
+                    <label class="form_label" for="form_label_message">
+                        Message
+                        <textarea id="form_label_message" name="form_name_message"></textarea>
+                    </label>
+                </div>
+                <ul>
+                    <li>
+
+                        <label class="form_label_li" for="form_label_monsieur">
+                            <input type="radio" id="form_label_monsieur" name="form_name_genre" value="M.">
+                            Monsieur
+                        </label>
+                    </li>
+                    <li>
+
+                        <label class="form_label_li" for="form_label_madame">
+                            <input type="radio" id="form_label_madame" name="form_name_genre" value="Mme.">
+                            Madame
+                        </label>
+                    </li>
+                </ul>
+                <button>Envoi du Formulaire</button>
+            </form>
+        </div>
+
+    </div>
+
+    <Footer class="footer">
+        <div class="box_bouton">
+            <a link type='text/html' href="/hobby.html"> hobby </a>
+        </div>
+        <div class="box_bouton">
+            <a link type='text/html' href="/index.html"> page principale </a>
+        </div>
+    </Footer>
+</body>
+
+</html>
